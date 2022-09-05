@@ -39,7 +39,6 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         {
             $Perns=Recuperer();
             $nom=$_POST['nom'];
-            
             $p="";
             for ($i=0; $i <count($Perns); $i++) { 
                 if($nom==$Perns[$i][0])
