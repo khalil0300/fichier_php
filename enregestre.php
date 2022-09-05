@@ -1,7 +1,5 @@
 <?php
-
 use function PHPSTORM_META\type;
-
 $nom=$prenom=$age='';
 $pers="";
 $tab_Per=[];
